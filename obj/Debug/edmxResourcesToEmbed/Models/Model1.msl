@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GoogleSearch_DBModelStoreContainer" CdmEntityContainer="GoogleSearch_DBEntities">
+    <EntitySetMapping Name="SearchSummeries">
+      <EntityTypeMapping TypeName="GoogleSearch_DBModel.SearchSummery">
+        <MappingFragment StoreEntitySet="SearchSummery">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SearchTerm" ColumnName="SearchTerm" />
+          <ScalarProperty Name="SearchTime" ColumnName="SearchTime" />
+          <ScalarProperty Name="ResultCount" ColumnName="ResultCount" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
